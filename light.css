@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+
+.container-calculate {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 242, 170);
+}
+
+.display{
+    width: 90%;
+    height: 20%;
+    background-color: #d4cece;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(5, 5, 5, 0.2);
+    font-size: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+    margin-top: 5px;
+    font-family: 'Bitcount Grid Single', sans-serif;
+    color: #554005;
+}
+
+.container_section{
+    display: flex;
+    width: 90%;
+    height: 12%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_section_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    width: 16%;
+    height: 80%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 0 10px 0 10px;
+    background-color: #dad70f;
+    color: rgb(15, 14, 14);
+}
+
+.container_section_button:hover {
+    background-color: #f5ea53;
+    transform: scale(1.1);
+}

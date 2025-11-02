@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link id="theme" rel="stylesheet" href="dark.css">
+</head>
+<body>
+    <!-- <h1>Calculadora</h1> -->
+    <main class="container-calculate">
+        <output class="display" id="display">0</output>
+        <div class="container_section">
+            <button class="container_section_button" onclick="ac()">AC</button>
+            <button class="container_section_button" onclick="backspace()">⌫</button>
+            <button class="container_section_button" onclick="percent()">%</button>
+            <button class="container_section_button" onclick="divide()">/</button>
+        </div>
+        <div class="container_section">
+            <button class="container_section_button" onclick="insertNumber(7)">7</button>
+            <button class="container_section_button" onclick="insertNumber(8)">8</button>
+            <button class="container_section_button" onclick="insertNumber(9)">9</button>
+            <button class="container_section_button" onclick="multiply()">x</button>
+        </div>
+        <div class="container_section">
+            <button class="container_section_button" onclick="insertNumber(4)">4</button>
+            <button class="container_section_button" onclick="insertNumber(5)">5</button>
+            <button class="container_section_button" onclick="insertNumber(6)">6</button>
+            <button class="container_section_button" onclick="subtract()">-</button>
+        </div>
+        <div class="container_section">
+            <button class="container_section_button" onclick="insertNumber(1)">1</button>
+            <button class="container_section_button" onclick="insertNumber(2)">2</button>
+            <button class="container_section_button" onclick="insertNumber(3)">3</button>
+            <button class="container_section_button" onclick="add()">+</button>
+        </div>
+        <div class="container_section">
+            <button class="container_section_button" id="button-theme" onclick="toggleTheme()">☀️</button>
+            <button class="container_section_button" onclick="insertNumber(0)">0</button>
+            <button class="container_section_button" onclick="insertDecimal()">.</button>
+            <button class="container_section_button" onclick="calcular()">=</button>
+        </div>
+    </main>
+</body>
+<script src="/index.js"></script>
+</html>
