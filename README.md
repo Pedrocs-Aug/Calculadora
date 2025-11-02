@@ -47,4 +47,4 @@ Sinta-se à vontade para sugerir melhorias, corrigir bugs ou adicionar novas fun
 5.  Abra um Pull Request.
 
 ## 🔑 Licença
-Este projeto está sob a licença [Nome da Licença, ex: MIT].
+Este projeto está sob a licença MIT.
