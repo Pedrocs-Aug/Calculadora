@@ -115,7 +115,7 @@ const calcular = () => {
 
 toggleTheme = () => {
     const el = document.getElementById('theme');
-    el.href = el.href.includes('light.css') ? 'dark.css' : 'light.css';
+    el.href = el.href.includes('light.css') ? './dark.css' : './light.css';
 
     const button = document.getElementById('button-theme');
     button.textContent = button.textContent === '☀️' ? '🌙' : '☀️';
